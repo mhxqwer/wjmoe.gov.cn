@@ -1,0 +1,271 @@
+@charset "UTF-8";
+#moe-detail-box, .moe-detail-box {
+  min-height: 600px;
+  _min-height: 600px;
+  padding: 50px 94px 20px 94px;
+  color: #4b4b4b;
+  line-height: 32px;
+  border: 1px solid #a4a4a4;
+  background: #FFF;
+}
+#moe-detail-box h1, .moe-detail-box h1 {
+  font-size: 20px;
+  text-align: center;
+}
+#moe-detail-box h2, .moe-detail-box h2 {
+  font-size: 16px;
+  text-align: center;
+  color: #6b6b6b;
+}
+#moe-detail-box p, .moe-detail-box p {
+  padding: 16px 0;
+}
+#moe-detail-box p.gq_laixinxuandeng_bz, .moe-detail-box p.gq_laixinxuandeng_bz {
+  border-bottom: 1px solid #ccc;
+}
+#moe-detail-box table, .moe-detail-box table {
+  margin: 0 auto;
+  padding: 0 3px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  overflow: visible;
+}
+#moe-detail-box table p, .moe-detail-box table p {
+  padding: 0;
+}
+#moe-detail-box caption, #moe-detail-box tbody, #moe-detail-box tfoot, #moe-detail-box thead, #moe-detail-box tr, #moe-detail-box th, #moe-detail-box td, .moe-detail-box caption, .moe-detail-box tbody, .moe-detail-box tfoot, .moe-detail-box thead, .moe-detail-box tr, .moe-detail-box th, .moe-detail-box td {
+  margin: 0;
+  padding: 0 3px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+#moe-detail-box a, .moe-detail-box a {
+  color: #00f;
+}
+#moe-detail-box a:hover, .moe-detail-box a:hover {
+  text-decoration: underline;
+}
+#moe-detail-box .relnews, .moe-detail-box .relnews {
+  margin-top: 10px;
+}
+#moe-detail-box .relnews dt, .moe-detail-box .relnews dt {
+  line-height: 40px;
+  font-family: "微软雅黑","宋体";
+  font-size: 16px;
+  font-weight: bold;
+  color: #567fe6;
+  text-indent: 5px;
+}
+#moe-detail-box .relnews dd, .moe-detail-box .relnews dd {
+  padding-left: 10px;
+  line-height: 30px;
+  background: url(../images/jyb_common_blackpoint.gif) no-repeat left 16px;
+}
+#moe-detail-box .relnews dd a, .moe-detail-box .relnews dd a {
+  color: #6b6b6b;
+}
+#moe-detail-box .relnews dd a:hover, .moe-detail-box .relnews dd a:hover {
+  text-decoration: underline;
+}
+#moe-detail-box .relnews .icon-file, .moe-detail-box .relnews .icon-file {
+  margin-right: 5px;
+  position: relative;
+  top: 3px;
+}
+#moe-detail-box .TRS_Editor, #moe-detail-box #downloadContent, .moe-detail-box .TRS_Editor, .moe-detail-box #downloadContent {
+  margin-top: 16px;
+}
+#moe-detail-box .TRS_Editor img, #moe-detail-box #downloadContent img, .moe-detail-box .TRS_Editor img, .moe-detail-box #downloadContent img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+#moe-detail-box .moe-num-list, .moe-detail-box .moe-num-list {
+  margin-top: 16px;
+}
+#moe-detail-box .moe-num-list li, .moe-detail-box .moe-num-list li {
+  padding: 16px 0;
+  text-indent: 32px;
+  list-style: decimal inside;
+  *margin-left: 5px;
+  *list-style-position: outside;
+  *overflow: visible;
+}
+#moe-detail-box .moe-num-list li dl dd, .moe-detail-box .moe-num-list li dl dd {
+  padding-top: 32px;
+  padding-left: 27px;
+  *padding-left: 0;
+}
+#moe-detail-box .moe-schools, .moe-detail-box .moe-schools {
+  padding: 16px 0;
+}
+#moe-detail-box .moe-schools dd, .moe-detail-box .moe-schools dd {
+  float: left;
+  width: 33.33%;
+  padding: 5px 0;
+}
+
+#moe-detail-page-set, .moe-detail-page-set {
+  text-align: center;
+}
+
+#moeCode, .moe_wcode {
+  text-align: center;
+  color: #4b4b4b;
+  clear: both;
+  padding-top: 20px;
+}
+#moeCode img, .moe_wcode img {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+
+.moe_wcode, #share-logo {
+  display: none;
+}
+
+.moe-detail-shuxing {
+  margin: 20px 0 10px;
+  padding: 0 30px;
+  font-family: "宋体";
+  font-size: 12px;
+  color: #6b6b6b;
+  background: #E9E9E9;
+}
+
+#detail-date-source {
+  float: left;
+}
+
+#detail-editor {
+  float: right;
+}
+
+#myposition {
+  font-family: "宋体";
+  font-size: 12px;
+  color: #6b6b6b;
+  background: none;
+  padding: 10px 0;
+}
+
+#content_body_txt {
+  margin-top: 35px;
+}
+#content_body_txt .MsoNormalTable {
+  margin: 0 auto;
+}
+
+/*信息公开*/
+#moe-policy-table {
+  width: 800px;
+  margin-bottom: 60px;
+  padding: 0;
+  line-height: 25px;
+  font-family: "宋体";
+  font-size: 14px;
+  color: #4b4b4b;
+  text-align: left;
+  border: none;
+}
+#moe-policy-table caption, #moe-policy-table tbody, #moe-policy-table tfoot, #moe-policy-table thead, #moe-policy-table tr, #moe-policy-table th, #moe-policy-table td {
+  border: none;
+  padding: 0;
+}
+#moe-policy-table .policy-item-title {
+  font-weight: bold;
+  width: 10%;
+}
+
+#moe-policy-wenhao, .moe-policy-wenhao {
+  margin-top: 30px;
+  text-align: right;
+}
+
+#pdfdownload {
+  padding-left: 15px;
+  color: #6b6b6b;
+  background: url(../images/moe_pages_download_icon.png) no-repeat left center;
+}
+
+/*图解教育*/
+.moe-detail-box-pic {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.pic-left {
+  float: left;
+  width: 688px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-right: 1px solid #ccc;
+}
+
+.pic-right {
+  float: left;
+  width: 219px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pic-right .title {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+  font-weight: bold;
+  color: #484a7a;
+  text-align: left;
+}
+.pic-right .title a {
+  color: #484a7a;
+}
+.pic-right dd {
+  padding: 2px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.pic-right dd img {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.pic-right dd h3 {
+  font-weight: normal;
+  font-size: 12px;
+  color: #333;
+  line-height: 150%;
+}
+.pic-right dd a {
+  color: #333;
+}
+
+/*图说教育*/
+.moe-pics-box {
+  border: none;
+  padding: 25px 45px 5px;
+}
+.moe-pics-box h1 {
+  text-align: left;
+}
+.moe-pics-box .moe-detail-shuxing {
+  background: none;
+  padding-left: 0;
+}
+
+/*统计数据*/
+.moe-statistics {
+  width: 990px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.moe-statistics .statistics-container {
+  overflow: auto;
+}
+.moe-statistics table, .moe-statistics caption, .moe-statistics thead, .moe-statistics tfoot, .moe-statistics tbody, .moe-statistics tr, .moe-statistics td {
+  border: none;
+  word-break: keep-all;
+}
+.moe-statistics #table-statistics {
+  margin-top: 32px;
+}

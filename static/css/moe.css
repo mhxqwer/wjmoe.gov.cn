@@ -1,0 +1,418 @@
+@charset "UTF-8";
+/*教育部通用样式头、尾*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  min-width: 990px;
+  font-family: "微软雅黑", Arial, "宋体";
+  font-size: 16px;
+  background: #fff;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: url(../images/jyb_top_background.jpg) no-repeat center top;
+}
+
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+a, area {
+  blr: expression(this.onFocus=this.blur());
+}
+
+a {
+  text-decoration: none;
+}
+
+dl, dt, dd, ol, ul, li {
+  list-style: none;
+}
+
+.clear {
+  clear: both;
+}
+
+/*头、导航、尾css样式*/
+.moe-page-set, .scy-main, .scy-tou {
+  width: 990px;
+  margin: 0 auto;
+}
+
+.scy-logo {
+  width: 480px;
+  height: 75px;
+  background: url(../images/scy_jyb_lgo_03.png) no-repeat;
+  float: left;
+  margin: 45px 0;
+}
+.scy-logo a, .scy-logo a img {
+  display: block;
+}
+
+.scy-tou, .scy-js {
+  overflow: visible;
+}
+
+.scy-js ul, .top-tools {
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  overflow: visible;
+}
+.scy-js ul li, .top-tools li {
+  float: left;
+  padding: 0 15px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  font-family: "宋体";
+  color: #fff;
+}
+.scy-js ul li a, .top-tools li a {
+  color: #fff;
+}
+.scy-js ul li .toLoginRegisterCenter dd a, .top-tools li .toLoginRegisterCenter dd a {
+  color: #567fe6;
+  font-weight: 600;
+}
+.scy-js ul li.moe-cas, .top-tools li.moe-cas {
+  padding-right: 0;
+}
+
+.user-infor {
+  padding-left: 20px;
+  background: url(../images/tmp_pc_login_logo.png) no-repeat left -2px;
+}
+
+#moe_index_en {
+  padding-right: 0;
+}
+#moe_index_en #language {
+  padding-right: 15px;
+  cursor: pointer;
+  color: #fff;
+  font-family: arial;
+  background: url(../images/moe_languages_arrow.png) no-repeat right -20px;
+  overflow: visible;
+}
+#moe_index_en dl {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  z-index: 1000;
+  background: #fff;
+}
+#moe_index_en dl a {
+  display: block;
+  padding: 3px 20px 3px 10px;
+  font-family: arial;
+  letter-spacing: 2px;
+  color: #567fe6;
+}
+#moe_index_en dl a:hover {
+  color: #fff;
+  background: #567fe6;
+}
+
+#moe-aid {
+  padding: 0;
+}
+
+.toLoginRegisterCenter {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  z-index: 999;
+  width: 55px;
+  padding: 1px 10px;
+  background-color: #eff6fe;
+  border: 1px solid #567fe6;
+  border-radius: 6px;
+  color: #567fe6;
+  overflow: visible;
+}
+.toLoginRegisterCenter .icon-jiantou {
+  position: absolute;
+  top: -5px;
+  left: 17px;
+}
+.toLoginRegisterCenter dd {
+  height: 21px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  line-height: 19px;
+  cursor: pointer;
+  color: #567fe6;
+}
+
+.to-register {
+  left: auto;
+  right: 0;
+}
+.to-register .icon-jiantou {
+  left: 55px;
+}
+
+.scy-js form {
+  float: right;
+}
+
+.scy-js-sou {
+  position: relative;
+  float: right;
+  width: 266px;
+  height: 32px;
+  margin-top: 34px;
+  padding: 0 13px;
+  background: url(../images/index_scy_jyb_sousuo_new_03.png) no-repeat;
+}
+.scy-js-sou img {
+  position: absolute;
+  right: 5px;
+  bottom: 6px;
+}
+.scy-js-sou input {
+  width: 246px;
+  height: 24px;
+  line-height: 24px;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-top: 3px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+.scy-js-sou input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+.scy-js-sou button:focus {
+  outline: none;
+}
+
+#search-button {
+  position: absolute;
+  right: 5px;
+  bottom: 6px;
+  width: 24px;
+  height: 21px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: url(../images/search_sy.png) no-repeat center;
+}
+
+.shoucang {
+  padding-left: 15px;
+  background: url(../images/tmp_favorites_icon.png) no-repeat center left;
+}
+
+.yellow {
+  background: url(../images/tmp_favorites_icon_yellow.png) no-repeat center left;
+}
+
+.moe-breadcrumb, .common_dqwz, .scy-dqwz {
+  margin: 0 auto;
+  width: 990px;
+  height: 40px;
+  line-height: 40px;
+  font-family: "宋体";
+  font-size: 12px;
+  color: #6b6b6b;
+}
+.moe-breadcrumb a, .common_dqwz a, .scy-dqwz a {
+  color: #6b6b6b;
+}
+.moe-breadcrumb a:hover, .common_dqwz a:hover, .scy-dqwz a:hover {
+  text-decoration: underline;
+}
+
+.scy-foot {
+  margin-top: 30px;
+  padding-bottom: 15px;
+  width: 100%;
+  background: #474e62;
+  overflow: visible;
+}
+
+.scy-foot-nr {
+  margin: 0 auto;
+  width: 990px;
+}
+
+.scy-foot-zj {
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 398px;
+  width: 508px;
+}
+.scy-foot-zj img {
+  float: left;
+}
+.scy-foot-zj ul li {
+  float: left;
+  margin: 10px 25px;
+}
+.scy-foot-zj ul li a {
+  display: block;
+  padding-top: 34px;
+  font-size: 14px;
+  font-family: "微软雅黑", Arial;
+  color: #848893;
+}
+.scy-foot-zj ul li.sm {
+  background: url(../images/index_scy_jyb_yzh_03.png) no-repeat center 10px;
+}
+.scy-foot-zj ul li.dt {
+  background: url(../images/index_scy_jyb-wzdt_03.png) no-repeat center 10px;
+}
+.scy-foot-zj ul li.lx {
+  background: url(../images/index_scy_jyb_lxwm_03.png) no-repeat center 10px;
+}
+
+.scy-foot-xia p {
+  height: 28px;
+  font-size: 12px;
+  font-family: "宋体";
+  text-align: center;
+  line-height: 28px;
+  color: #848893;
+}
+.scy-foot-xia p span {
+  display: inline-block;
+}
+
+.scy-foot-xia a {
+  color: #848893;
+  display: inline-block;
+}
+.scy-foot-xia a#moe_gonganbeian {
+  background: url(../images/gonganbeian_11010202007625.png) no-repeat left center;
+  padding-left: 22px;
+}
+
+/*外链提示*/
+#moe_black {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background: url(../images/moe_golink_black.png) repeat left top;
+}
+
+#moe_golink {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 531px;
+  height: 247px;
+  background: url(../images/moe_golink_bj.png) no-repeat center bottom;
+  color: #4b4b4b;
+}
+#moe_golink p {
+  text-align: right;
+}
+
+#golink_info {
+  margin: 45px 40px 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #7994d7;
+  font-size: 24px;
+  text-align: center;
+  line-height: 36px;
+}
+
+#golink_btn {
+  text-align: center;
+  line-height: 41px;
+  font-size: 18px;
+}
+#golink_btn strong {
+  margin-left: 50px;
+  cursor: default;
+}
+
+#golink_info img, #golink_btn img {
+  vertical-align: middle;
+}
+
+#_span_jiucuo {
+  float: left;
+  margin-top: 12px;
+}
+
+#added_block {
+  position: fixed;
+  top: 220px;
+  left: 50%;
+  margin-left: 520px;
+}
+
+#pc_left_position {
+  position: fixed;
+  top: 220px;
+  right: 50%;
+  margin-right: 520px;
+}
+
+#added_block a, #pc_left_position a {
+  display: block;
+  clear: both;
+  margin-bottom: 3px;
+}
+#added_block img, #pc_left_position img {
+  display: block;
+}
+#added_block p, #pc_left_position p {
+  width: 86px;
+  text-align: right;
+  font-size: 12px;
+  color: #666;
+  cursor: pointer;
+  line-height: 26px;
+}
+
+.setMargin20 {
+  margin-bottom: 20px;
+}
+
+.pchide {
+  display: none;
+}
+
+.mhide {
+  display: block;
+}
+
+.clearMargin, .resetMargin {
+  margin: 0;
+}
+
+.clearPadding {
+  padding: 0;
+}
+
+.clearBG {
+  background: none;
+}
+
+.clearBorder {
+  border: none;
+}
